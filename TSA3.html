@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pokémon Database</title>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+    td {
+        background-color: ; 
+        color: black;
+    }
+</style>
+</head>
+<body>
+
+<form>
+    <label for="nationalDex">National Dex:</label>
+    <input type="number" id="nationalDex" name="nationalDex" min="0"><br><br>
+
+    <label for="pokemonName">Pokemon Name:</label>
+    <input type="text" id="pokemonName" name="pokemonName"><br><br>
+
+    <label for="generation">Generation:</label><br>
+    <input type="radio" id="gen1" name="generation" value="1">
+    <label for="gen1">Gen I</label><br>
+    <input type="radio" id="gen2" name="generation" value="2">
+    <label for="gen2">Gen II</label><br>
+    <input type="radio" id="gen3" name="generation" value="3">
+    <label for="gen3">Gen III</label><br>
+    <input type="radio" id="gen4" name="generation" value="4">
+    <label for="gen4">Gen IV</label><br>
+    <input type="radio" id="gen5" name="generation" value="5">
+    <label for="gen5">Gen V</label><br>
+    <input type="radio" id="gen6" name="generation" value="6">
+    <label for="gen6">Gen VI</label><br>
+    <input type="radio" id="gen7" name="generation" value="7">
+    <label for="gen7">Gen VII</label><br>
+    <br>
+
+    <label for="image">Image:</label>
+    <input type="file" id="image" name="image"><br><br>
+
+    <label for="type1">Type 1:</label>
+    <select id="type1" name="type1">
+        <option value="Normal">Normal</option>
+        <option value="Fire">Fire</option>
+        <option value="Water">Water</option>
+        <option value="Electric">Electric</option>
+    </select><br><br>
+
+    <label for="type2">Type 2:</label>
+    <select id="type2" name="type2">
+        <option value="None">None</option>
+        <option value="Grass">Grass</option>
+        <option value="Fighting">Fighting</option>
+        <option value="Psychic">Psychic</option>
+    </select><br><br>
+
+    <label for="evolvesFrom">Evolves From:</label>
+    <input type="text" id="evolvesFrom" name="evolvesFrom"><br><br>
+
+    <label for="evolvesTo">Evolves To:</label>
+    <input type="text" id="evolvesTo" name="evolvesTo"><br><br>
+
+    <label for="nickname">Nickname:</label>
+    <input type="text" id="nickname" name="nickname"><br><br>
+
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday"><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+<br><br>
+
+<table>
+    <tr>
+        <th>National Dex</th>
+        <th>Generation</th>
+        <th>Pokemon Name</th>
+        <th>Image</th>
+        <th>Type</th>
+        <th>Evolves From</th>
+        <th>Evolves To</th>
+        <th>Nickname</th>
+        <th>Birthday</th>
+    </tr>
+    <tr>
+        <td>001</td>
+        <td>Gen Z</td>
+        <td>Jebson</td>
+        <td><img src="https://mail.google.com/mail/u/3?ui=2&ik=6b39bdbfcb&attid=0.1&permmsgid=msg-f:1798573416478355367&th=18f5d0fe37a72fa7&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ-u4f5PuKsSFnpJju0YnyosQSKZcatfn02wp1j2AQadVIribrb4bU3Yd-M72xaNRDngPLYsdBFuLGtTuUPAdSNQLij4XETN045YTcyeNuCR2JC_bfDeBITKBVI&disp=emb&realattid=ii_lvz5i1x10" alt="Jebson"></td>
+        <td style="background-color: #78C850; color: white;">Classic/Normal</td>
+        <td>None</td>
+        <td>Thomas</td>
+        <td>Jeboy</td>
+        <td>2004-09-17</td>
+    </tr>
+    <tr>
+        <td>025</td>
+        <td>Gen I</td>
+        <td>Pikachu</td>
+        <td><img src="https://archives.bulbagarden.net/media/upload/thumb/4/4a/0025Pikachu.png/600px-0025Pikachu.png" alt="Squirtle"></td>
+        <td style="background-color: #F8D030; color: white;">Electric</td>
+        <td>Pichu</td>
+        <td>Raichu</td>
+        <td>Pika</td>
+        <td>1996-02-27</td>
+    </tr>
+    </tr>
+    <td>035</td>
+    <td>Gen I</td>
+    <td>Clefairy</td>
+    <td><img src="https://archives.bulbagarden.net/media/upload/thumb/b/b7/0035Clefairy.png/250px-0035Clefairy.png" alt="Charmander"></td>
+    <td style="background-color: #FFC0CB; color: white;">Fairy</td>
+    <td>None</td>
+    <td>Clefable</td>
+    <td>Moonrock</td>
+    <td>1996-03-01</td>
+    <tr>
+    </tr>
+     <td>0063</td>
+    <td>Gen I</td>
+    <td>Abra</td>
+    <td><img src="https://archives.bulbagarden.net/media/upload/thumb/b/bd/0063Abra.png/250px-0063Abra.png" alt="Squirtle"></td>
+    <td style="background-color: #F08030; color: white;">Psychic</td>
+    <td>None</td>
+    <td>Alakazam</td>
+    <td>Kadabra</td>
+    <td>1996-03-01</td>
+    </tr>
+    <td>152</td>
+    <td>Gen II</td>
+    <td>Chikorita</td>
+     <td><img src="https://archives.bulbagarden.net/media/upload/b/bc/0152Chikorita.png" alt="Squirtle"></td>
+     <td style="background-color: #78C850; color: white;">Grass</td>
+     <td>None</td>
+     <td>Bayleef</td>
+     <td>Chiko</td>
+     <td>1999-12-14</td>
+    </tr>
+    <tr>
+        <td>155</td>
+        <td>Gen II</td>
+        <td>Cyndaquil</td>
+        <td><img src="https://archives.bulbagarden.net/media/upload/thumb/9/97/0155Cyndaquil.png/600px-0155Cyndaquil.png" alt="Squirtle"></td>
+        <td style="background-color: #F08030; color: white;">Fire</td>
+        <td>None</td>
+        <td>Quilava</td>
+        <td>Cyndy</td>
+        <td>1999-12-14</td>
+    </tr>
+    <tr>
+        <td>158</td>
+        <td>Gen II</td>
+        <td>Totodile</td>
+        <td><img src="https://archives.bulbagarden.net/media/upload/f/f7/0158Totodile.png" alt="Squirtle"></td>
+        <td style="background-color: #6890F0; color: white;">Water</td>
+        <td>None</td>
+        <td>Croconaw</td>
+        <td>Toto</td>
+        <td>1999-12-14</td>
+    </tr>
+    <tr>
+        <td>190</td>
+        <td>Gen II</td>
+        <td>Aipom</td>
+        <td><img src="https://archives.bulbagarden.net/media/upload/0/0d/0190Aipom.png" alt="Squirtle"></td>
+        <td style="background-color: #A8A878; color: white;">Normal</td>
+        <td>None</td>
+        <td>Ambipom</td>
+        <td>Ace</td>
+        <td>2000-07-08</td>
+    </tr>
+    <tr>
+        <td>197</td>
+        <td>Gen II</td>
+        <td>Umbreon</td>
+        <td><img src="https://archives.bulbagarden.net/media/upload/e/e1/0197Umbreon.png" alt="Squirtle"></td>
+        <td style="background-color: #705848; color: white;">Dark</td>
+        <td>Eevee</td>
+        <td>None</td>
+        <td>Umby</td>
+        <td>2000-07-08</td>
+    </tr>
+    <tr>
+        <td>211</td>
+        <td>Gen III</td>
+        <td>Treecko</td>
+        <td><img src="https://archives.bulbagarden.net/media/upload/thumb/9/90/0252Treecko.png/600px-0252Treecko.png"></td>
+        <td style="background-color: #78C850; color: white;">Grass</td>
+        <td>None</td>
+        <td>Grovyle</td>
+        <td>Geecko</td>
+        <td>2000-07-08</td>
+    </tr>
+    
+</table>
+
+</body>
+</html>
